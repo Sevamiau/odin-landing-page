@@ -1,4 +1,75 @@
+body {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
+
+.footer,
+.header {
+    background-color: antiquewhite;
+    padding: 32px;
+}
+
+.items {
+    display: flex;
+    gap: 16px;
+}
+
+
+.container > div {
+    width: auto;
+    height: 500px;
+    border: 1px solid black;
+}
+
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.pictures {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex: 1;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.img {
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    height: 100px;
+
 }
