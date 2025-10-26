@@ -34,8 +34,27 @@ body {
     
 }
 
-.random-info {
+.text {
+    padding: 16px;
+    font-size: 20px;
+}
+
+.info-todo {
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 32px;
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+
+.info {
+    max-width: 200px;
 }
 
 .header-logo {
@@ -65,19 +84,7 @@ body {
     font-size: 50px;
 }
 
-.pictures {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex: 1;
-}
 
-.picture {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
 
 .text {
     display: flex;
