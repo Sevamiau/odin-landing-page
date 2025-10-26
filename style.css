@@ -1,4 +1,8 @@
 body {
+    margin: 0;
+}
+
+.page {
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -30,6 +34,10 @@ body {
     
 }
 
+.random-info {
+    text-align: center;
+}
+
 .header-logo {
     padding-left: 300px;
     padding-right: 300px;
@@ -40,11 +48,9 @@ body {
 .container > div {
     width: auto;
     height: 500px;
-    border: 1px solid black;
-    padding-left: 300px;
-    padding-right: 300px;
+    padding-left: 200px;
+    padding-right: 200px;
 }
-
 
 .hero {
     display: flex;
@@ -66,6 +72,20 @@ body {
     flex: 1;
 }
 
+.picture {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
 .picture-info {
     font-size: 80px;
 }
@@ -74,14 +94,24 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #E5E7Eb;
-    
+    background-color: #E5E7Eb;   
+    flex: 1;
+}
+
+.banner-info {
+    color: #686b70;
+    font-size: 50px;
 }
 
 .cta-border {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.random-info {
+    font-size: 70px;
+    margin-bottom: 0;
 }
 
 .cta {
@@ -92,6 +122,9 @@ body {
     height: 150px;
     background-color: #3882F6;
     border-radius: 10px;
+        padding-left: 300px;
+    padding-right: 300px;
+    
 }
 
 #cta-button {
@@ -123,6 +156,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-shrink: 0;
 }
 
 .img1 {
